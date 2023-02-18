@@ -5,15 +5,15 @@ import StatusPopup from './statusPopup';
 const DisplayStatus = ({ status }) => {
   const statusMap = {
     loading: {
-      title: '📡Please Wait!',
+      title: 'Please Wait!',
       message: 'Getting data from API...',
     },
     error: {
-      title: '😧ops!',
+      title: 'oops!',
       message: 'There was an error! Please refresh the page.',
     },
     notfound: {
-      title: 'S🙁RRY!',
+      title: 'SoRRY!',
       message: "We can't find the country you're looking for.",
     },
   };

@@ -58,8 +58,8 @@ const CountriesList = () => {
           flagAlt={countries[0].flags.alt}
         />
       )}
-      <SortingBox sorter={sorter} setSorter={setSorter} />
       <DisplayStatus status={status} />
+      <SortingBox sorter={sorter} setSorter={setSorter} />
       {countries.length === 0 && <DisplayStatus status="notfound" />}
       <div className="main-grid">
         {countries.slice(1, count).map((c) => (

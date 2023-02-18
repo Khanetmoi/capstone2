@@ -55,7 +55,7 @@ const CountryDetail = () => {
             <DataItem title="Region" data={country.region} />
             {country.name.nativeName && (
               <DataItem
-                title="Native Name"
+                title="Local Name"
                 data={
                   country.name.nativeName[
                     Object.keys(country.name.nativeName)[0]
@@ -85,7 +85,7 @@ const CountryDetail = () => {
         </>
       ) : (
         <StatusPopup
-          title="😧ops!"
+          title="oops!"
           message="There was an error while reloading data."
           showHome
         />

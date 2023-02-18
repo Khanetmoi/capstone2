@@ -8,10 +8,10 @@ const SortingBox = ({ sorter, setSorter }) => (
       value={sorter}
       onChange={(e) => setSorter(e.target.value)}
     >
-      <option value="area-d">Sort by Area [D]</option>
+      <option value="area-d">Sort by Area [Z]</option>
       <option value="area-a">Sort by Area [A]</option>
       <option value="name-d">Sort by Name [A]</option>
-      <option value="name-a">Sort by Name [D]</option>
+      <option value="name-a">Sort by Name [Z]</option>
     </select>
   </div>
 );
