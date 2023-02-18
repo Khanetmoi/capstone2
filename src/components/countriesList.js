@@ -41,7 +41,7 @@ const CountriesList = () => {
     <section className="homepage">
       <div className="toolbar">
         <h1 className="brand">
-          <Link to="/">Nations Info</Link>
+          <Link to="/">NationGuide</Link>
         </h1>
         <SearchBox query={query} setQuery={setQuery} />
         <div className="d-row">
