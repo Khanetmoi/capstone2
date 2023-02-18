@@ -20,7 +20,7 @@ const CountryDetail = () => {
           <BsFillArrowLeftSquareFill />
         </Link>
         <h1 className="brand">
-          <Link to="/">NationGuide</Link>
+          <Link to="/">Nations Info</Link>
         </h1>
         <div className="d-row">
           <BsFillMicFill />
@@ -49,7 +49,7 @@ const CountryDetail = () => {
               )}
             </div>
           </section>
-          <h2 className="bar-item">Detail Information</h2>
+          <h2 className="bar-item">Informations</h2>
           <div className="detail-list">
             <DataItem title="Continent" data={country.continents[0]} />
             <DataItem title="Region" data={country.region} />
