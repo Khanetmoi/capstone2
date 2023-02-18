@@ -26,7 +26,8 @@
 
 **Capstone 2: Nations info** is a dynamic web application where users can access information about countries all around the world, including their flags, areas, populations, currencies and more.
 
-![Screenshot](app_screenshot.png)
+![Screenshot 1](https://drive.google.com/file/d/1gLkmOP0LT2ke7GTk6hODlbqgnJO9ITbW/view?usp=sharing)
+![Screenshot 2](https://drive.google.com/file/d/1vkJ3gTrNKeVt4l493a_3sfUMNNpAvG5j/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
