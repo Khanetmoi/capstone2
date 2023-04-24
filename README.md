@@ -82,7 +82,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-project
-  git clone git@github.com:IndieCoderMM/nation-guide.git .
+  git clone https://github.com/Khanetmoi/capstone2.git
 ```
 
 ### Install
