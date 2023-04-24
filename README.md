@@ -81,7 +81,7 @@ In order to run this project you need [Node.js](https://nodejs.org/en/) installe
 Clone this repository to your desired folder:
 
 ```sh
-  cd my-project
+  cd CAPSTONE2
   git clone https://github.com/Khanetmoi/capstone2.git
 ```
 
