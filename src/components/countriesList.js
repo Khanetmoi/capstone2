@@ -35,6 +35,10 @@ const CountriesList = () => {
     countries.sort((a, b) => (a.name.common > b.name.common ? 1 : -1));
   } else if (sorter === 'name-a') {
     countries.sort((a, b) => (a.name.common < b.name.common ? 1 : -1));
+  }else if (sorter === 'population-a') {
+    countries.sort((a, b) => (a.population < b.population ? 1 : -1));
+  }else if (sorter === 'population-d') {
+    countries.sort((a, b) => (a.population > b.population ? 1 : -1));
   }
 
   return (
@@ -56,6 +60,8 @@ const CountriesList = () => {
           area={countries[0].area}
           flagPng={countries[0].flags.png}
           flagAlt={countries[0].flags.alt}
+          population={countries[0].population}
+          capital = {countries[0].capital}
         />
       )}
       <DisplayStatus status={status} />
@@ -70,6 +76,8 @@ const CountriesList = () => {
             area={c.area}
             flagPng={c.flags.png}
             flapAlt={c.flags.alt}
+            population={c.population}
+            capital = {c.capital}
           />
         ))}
       </div>

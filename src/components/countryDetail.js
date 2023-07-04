@@ -12,7 +12,7 @@ const CountryDetail = () => {
   const country = countries.find((c) => c.name.common === params.name);
 
   useEffect(() => window.scrollTo(0, 0), []);
-
+  //  console.log(country.name.common.split('').join(','))
   return (
     <section className="detail-page">
       <div className="toolbar">
@@ -72,8 +72,8 @@ const CountryDetail = () => {
               data={country.latlng[1]}
               unit="&#176;"
             />
-            <DataItem title="Area" data={country.area} unit="km²" />
-            <DataItem title="Population" data={country.population} />
+            <DataItem title="Area" data={country.area.toLocaleString()} unit="km²" />
+            <DataItem title="Population" data={country.population.toLocaleString()} />
             <DataItem title="Timezone" data={country.timezones[0]} />
             {country.currencies && (
               <DataItem

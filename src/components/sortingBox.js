@@ -12,6 +12,8 @@ const SortingBox = ({ sorter, setSorter }) => (
       <option value="area-a">Sort by Area [A]</option>
       <option value="name-d">Sort by Name [A]</option>
       <option value="name-a">Sort by Name [Z]</option>
+      <option value="population-a">Sort by Population [Z]</option>
+      <option value="population-d">Sort by Population [A]</option>
     </select>
   </div>
 );
